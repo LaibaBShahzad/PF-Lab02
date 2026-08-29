@@ -2,16 +2,15 @@
 int main()
 {
   int Batch = 2026;
-  char Section = 'SE-1B';
+  char Section = 'B';
   float Entry_test_score = 63.95;
   double Semester_tution_fee = 268500;
-  char motto = '"Mistakes makes a man perfect"';
 
-                printf("I am from batch: \t\n%d",Batch);
-                printf("Our section is: \t\n%c",Section);
-                printf("My entry test score was: \t\n%f",Entry_test_score);
-                printf("My semester tution fee is: \t\n%lf",Semester_tution_fee);
-                printf("My moto is: \t\n%c",motto);
+                printf("I am from batch: \t\t\t %d",Batch);
+                printf("\nOur section is: \t\t\t %c",Section);
+                printf("\nMy entry test score was: \t %f",Entry_test_score);
+                printf("\nMy semester tution fee is: \t %lf",Semester_tution_fee);
+                printf("\n Motto: \t\t\t\t\t \"Mistakes makes a man perfect\"");
 
           return 0;
 }
